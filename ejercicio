@@ -76,7 +76,7 @@ object ConsistenciaEstudiantes {
       }
     }
 
-=    println(s"Estudiante más consistente: ${mejorEstudiante.nombre}")
+    println(s"Estudiante más consistente: ${mejorEstudiante.nombre}")
     println(f"Consistencia: $mejorConsistencia%.2f")
   }
 }
